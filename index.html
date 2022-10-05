@@ -1,28 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
-
 <body>
-    <header id="header">
-        <img src="./product-landing-page-logo.png" alt="logo" id="header-img">
-        <nav id="nav-bar">
-            <a href="#" class="nav-link">Features</a>
-            <a href="#" class="nav-link">How it works</a>
-            <a href="#" class="nav-link">Pricing</a>
-        </nav>
-    </header>
-    <iframe src="https://youtu.be/y8Yv4pnO7qc" frameborder="0" id="video"></iframe>
-    <h3>Handcrafted, home-made masterpieces</h3>
-    <form action="" id="form">
-        <input type="email" id="email" placeholder="Enter your email address" />
-        <a href="https://www.freecodecamp.com/email-submit"><input type="submit" id="submit"></a>
+</html>
+<body>
+    
+<div id="container">
+      
+      <header id="header">
+        <div id="image">
+          <div id="title">
+            <img id="header-img" alt="product logo thing" src="https://cdn4.iconfinder.com/data/icons/sheep/500/Animal_lamb_sheep_wool_lamb_1-512.png">
+            <h1 style="color: blue">Lewis and <span style="color:hwb(127 5% 5%)">Kwame</span></h1>
+          </div>
+        </div>
+        <div>
+          <nav id="nav-bar">
+            <a class="nav-link" href="#features-anchor">FEATURES</a>
+            <a class="nav-link" href="#video-anchor">DEMO</a>
+            <a class="nav-link" href="#form">PLANS</a>
+          </nav>
+        </div>
+      </header>
+      
+      <div id="main-body">
+        <p id="features-anchor"></p>
+        <h1>Hello world, I am a software developer </h1><br>
+        <div>
+            
+          <h2>PRODUCT</h1>
+        </div>
+        <div id="feature-container">
+          <div class="features">
+            <h3> Goals</h3>
+            <p>Individual contributors can set their own OKRs<br> </p>
+          </div>
+          <div class="features">
+            <h3>Alignment</h3>
+            <p>Company goals</p>
+          </div>
+          <div class="features">
+            <h3 id="video-anchor">Custom Metrics</h3>
+            <p>Customizable Objectives & Key Results</p>
+          </div>
+        </div>
 
-    </form>
+        <div id="video-wrapper">
+          <div>
+            <p> Product Video Overview</p>
+          </div>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7sR-BowlNMg" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div id="models">
+          <div class="model-class">
+            <div class="model-name">
+              <h2>Small Businesses</h2>
+            </div>
+            <div class="model-description">
+              <p>+Early stage to small start ups<br>
+              +2 tiers goal alignment<br>
+              +Standard metrics</p>
+              
+            </div>
+            <button type="submit" style="width:100%;font-weight: lighter">$3/user</button>
+          </div>
+          <div class="model-class">
+            <div class="model-name">
+              <h2>Mid Market</h2>
+            </div>
+            <div class="model-description">
+              <p> Late stage start ups to mid size companies<br>
+              5 tier goal alignment<br>
+              More customizable metrics and analytics dashboard</p>
+
+              <div id="info">
+                <h3>1-Week Trial</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+                  <label for="email" id="email-label"><input id="email" name="email" type="email" placeholder="Enter your email"></input></label>
+                  <div id="button-container">
+                    <input type="submit" id="submit" value="Start Now!"></input>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+            <button type="submit" style="width:100%;font-weight:lighter">$4.99/user</button>
+          </div>
+          <div class="model-class">
+            <div class="model-name">
+              <h2>Enterprise</h2>
+            </div>
+            <div class="model-description">
+              <p>+ Large company sizes<br>
+              +Multiple tiers of goal alignment<br>
+              + Custom metrics and analytics </p>
+            </div>
+            <button type="submit" style="width:100%;font-weight:lighter"></button> pricing</button>
+          </div>
+        </div>
+
+        
+      </div>
+    
+       <footer class="text-center">
+        <div>
+            <h2>Lewis & Kwame did It</h2>
+        </div>
+        
+    </footer>
+    </div>
+      
+    </div>
+
 
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
